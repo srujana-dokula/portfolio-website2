@@ -1,0 +1,71 @@
+.bannerBgImage{
+    height:100vh;
+    background:url("/images/bannerimage.jpg");
+    background-size:cover;
+    position:relative;
+}
+.bannerText{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:black;
+}
+.bannerTitle{
+    font-size:4rem;
+}
+.bannerDesc{
+    font-size:2rem; 
+}
+.card-img-top{
+    height: 50vh;
+
+   
+}
+.card-text{
+    font-size: -100rem;
+}
+.skills{
+      background:var(--secon-bg-color);
+}
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap:50px;
+}
+.skill-bar{
+    margin-bottom: 2.3 rem;
+
+}
+.skill-main h3{
+    margin-bottom:2 rem;
+    font-size: var(--normal-font);
+    text-align: center;
+}
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    padding:0 10px;
+}
+.skill-left .skill-bar .bar{
+    width:100%;
+    height: 10px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    margin-top:10px;
+    position: relative;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height:100%;
+    position: absolute;
+    left:0;
+    background: var(--hover-color);
+    border-radius: 25px;
+    box-shadow:var(--neon-box-shadow);
+    
+}
